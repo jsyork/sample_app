@@ -4,7 +4,6 @@
     <title>My Little Sample App | <%= @title %></title>
   </head>
   <body>
-	<h1>Sample App About Page</h1>
-	<p>Find me in app/views/pages/about.html.erb</p>
+    <%= yield %>	
   </body>
 </html>

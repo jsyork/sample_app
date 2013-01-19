@@ -2,9 +2,9 @@
 <html>
   <head>
     <title>My Little Sample App | <%= @title %></title>
+    <%= csrf_meta_tag %>
   </head>
   <body>
-	<h1>Sample App About Page</h1>
-	<p>Find me in app/views/pages/about.html.erb</p>
+    <%= yield %>	
   </body>
 </html>
